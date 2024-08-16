@@ -10,12 +10,6 @@ This proof-of-concept (PoC) project serves as a testing ground for the seamless 
 * **FastAPI:** A high-performance web framework for building APIs with automatic interactive documentation.
 * **Pydantic:** A data validation library that enforces type hints and provides user-friendly error messages.
 
-**Project Structure**
-
-* **`database.py`:** Handles database setup, creation, and interaction using SQLModel.
-* **`models.py`:** Defines Pydantic models to represent data structures, ensuring type safety and validation.
-* **`main.py`:** Implements FastAPI endpoints to create, read, update, and delete data through the database.
-
 **Key Features**
 
 * **CRUD Operations:** The project demonstrates basic Create, Read, Update, and Delete (CRUD) operations on a sample data model.
