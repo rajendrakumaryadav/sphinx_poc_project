@@ -11,11 +11,15 @@ import sys
 sys.path.insert(0, os.path.abspath("../../"))
 import poc_project as dp
 import poc_project.data as data
-import poc_project.models as models
+
+# import poc_project.models as models
+from poc_project import models
+from poc_project.models.RequestLogModel import RequestLog
 
 a = dp
 b = data
 m = models
+rl = RequestLog
 project = "Simple Application"
 copyright = "2024, Rajendra Kumar Yadav"
 author = "Rajendra Kumar Yadav"
@@ -36,5 +40,5 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-# html_theme = "sphinx_book_theme"
+html_theme = "classic"
 html_static_path = ["_static"]
