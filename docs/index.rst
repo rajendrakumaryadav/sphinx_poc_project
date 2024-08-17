@@ -19,21 +19,11 @@ This proof-of-concept (PoC) project serves as a testing ground for the seamless 
 **How to Run**
 
 1. **Install Dependencies:**
-   ```bash
-   pip install fastapi sqlmodel uvicorn
 
+.. code-block:: console
 
-Subpackages
------------
+   $ pip install fastapi sqlmodel uvicorn
 
-.. toctree::
-   :maxdepth: 4
-
-   poc_project.data
-   poc_project.models
-
-Submodules
-----------
 
 app module
 ----------------------------------------

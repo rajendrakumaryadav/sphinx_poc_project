@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>poc_project package &#8212; Simple Application 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=c058f7c8" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="poc_project.data package" href="poc_project.data.html" />
+    <link rel="prev" title="PoC Project - Sample Project documentation" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="poc-project-package">
+<h1>poc_project package<a class="headerlink" href="#poc-project-package" title="Link to this heading">¶</a></h1>
+<section id="subpackages">
+<h2>Subpackages<a class="headerlink" href="#subpackages" title="Link to this heading">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="poc_project.data.html">poc_project.data package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="poc_project.data.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="poc_project.data.html#poc-project-data-connection-module">poc_project.data.connection module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="poc_project.data.html#module-poc_project.data">Module contents</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="poc_project.data.html#deep-learning-with-pytorch-data">deep_learning_with_pytorch.data</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="poc_project.models.html">poc_project.models package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="poc_project.models.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="poc_project.models.html#poc-project-models-requestlogmodel-module">poc_project.models.RequestLogModel module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="poc_project.models.html#module-poc_project.models">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Link to this heading">¶</a></h2>
+</section>
+<section id="poc-project-app-module">
+<h2>poc_project.app module<a class="headerlink" href="#poc-project-app-module" title="Link to this heading">¶</a></h2>
+</section>
+<section id="module-poc_project">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-poc_project" title="Link to this heading">¶</a></h2>
+<p><strong>Proof of Concept (PoC) FastAPI Application</strong></p>
+<p>This project demonstrates a simple FastAPI application with the following features:</p>
+<ul class="simple">
+<li><dl class="simple">
+<dt><strong>Endpoints:</strong></dt><dd><ul>
+<li><p><strong>Health Check:</strong> A basic health check endpoint (<cite>/</cite>) to verify the application’s status.</p></li>
+<li><p><strong>Personalized Greeting:</strong> An endpoint (<cite>/{name}</cite>) that generates a personalized greeting message based on the provided name.</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt><strong>Database Integration:</strong></dt><dd><ul>
+<li><p><strong>SQLite Database:</strong> Utilizes an SQLite database to store request logs.</p></li>
+<li><p><strong>Request Logging:</strong> Middleware logs request processing times into the database for monitoring and analysis.</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt><strong>Command-Line Interface:</strong></dt><dd><ul>
+<li><p><strong>Server Execution:</strong> A Click-based command-line interface allows running the FastAPI server with configurable port and debug options.</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<p><strong>Project Structure</strong></p>
+<ul class="simple">
+<li><p><strong>`__init__.py`:</strong> This file, providing the project overview and documentation.</p></li>
+<li><p><strong>`data/connection.py`:</strong>  (Assumed) Contains the <cite>connect</cite> function for establishing the database connection.</p></li>
+<li><p><strong>`models.py`:</strong> (Assumed) Defines the <cite>RequestLogModel</cite> for database logging.</p></li>
+<li><p><strong>Other modules:</strong> The project might include additional modules for further functionality or organization.</p></li>
+</ul>
+<p><strong>Getting Started</strong></p>
+<ol class="arabic simple">
+<li><p><strong>Install Dependencies:</strong></p></li>
+</ol>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Simple Application</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">poc_project package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#subpackages">Subpackages</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="poc_project.data.html">poc_project.data package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="poc_project.models.html">poc_project.models package</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#poc-project-app-module">poc_project.app module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-poc_project">Module contents</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">PoC Project - Sample Project documentation</a></li>
+      <li>Next: <a href="poc_project.data.html" title="next chapter">poc_project.data package</a></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, Rajendra Kumar Yadav.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.0.2</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/poc_project.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
